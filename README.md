@@ -12,3 +12,11 @@
 </ol>
 </p>
 
+## Instructions
+
+<ol>
+<li> Make sure that you have python installed and the path is properly configured. </li>
+<li> Install the dependency using pip package manager i,e open your command propmt and type in py -m pip install sklearn. </li>
+<li> Install the Git desktop client. </li>
+<li> Clone the repository: git clone https://github.com/jamesgeorge007/Gender-Classifier-Machine-Learning-model-in-sklearn- </li>
+<li> Navigate to the src directory where you can find the source file. </li>
