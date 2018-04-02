@@ -1,4 +1,4 @@
-# Gender-Classifier-Machine-Learning-model-in-sklearn
+# Gender-Classifier
 
 ## Basic Info
 <p> This is a machine learning model which is trained with the data-sets corresponding to the height, weight and shoe sizes of male and female and then predicting based on an input. </p>
