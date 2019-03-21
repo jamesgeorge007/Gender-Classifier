@@ -1,13 +1,9 @@
 from sklearn.tree import DecisionTreeClassifier
-
 from sklearn.neighbors import KNeighborsClassifier
-
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
 tree_classifier = DecisionTreeClassifier()
-
 neighbor_classifier = KNeighborsClassifier()
-
 discriminant_classifier = QuadraticDiscriminantAnalysis()
 
 # Data-sets
@@ -23,22 +19,18 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 # Training the model with datasets.
 
 tree_model = tree_classifier.fit(X, Y)
-
 neighbor_model = neighbor_classifier.fit(X, Y)
-
 discriminant_model = discriminant_classifier.fit(X, Y)
 
 # Predicting based on the given input. 
 
 tree_prediction = tree_model.predict([[190, 70, 43]])
-
 neighbor_prediction = neighbor_model.predict([[190, 70, 43]])
-
 discriminant_prediction = discriminant_model.predict([[190, 70, 43]]) 
 
+# Logging the predictions
+
 print(tree_prediction)
-
 print(neighbor_prediction)
-
 print(discriminant_prediction)
 
